@@ -15,6 +15,11 @@
 ### You can find our source code in the below repository:
 
 ##  [Fairfield City Library](https://github.com/Ashe-Gebre/CS415-Project)
+
+### You can find here below sample JSON file exported from our database:
+
+##  [Export DB File](https://github.com/Ashe-Gebre/cs415-project/blob/main/books.json)
+
  
 #### Feel free to clone & use it after installing the necessary modules.
 

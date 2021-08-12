@@ -1,0 +1,9 @@
+{"_id":{"$oid":"611485f2e849b044a46152a9"},"ISBN":"123-00-0003","bookTitle":"A Particular Kind of Black Man","overdueFee":"11.23","publisher":"Dani Pubishing plc","datePublished":"2021-08-11"}
+{"_id":{"$oid":"611487a7e849b044a46152ab"},"ISBN":"123-00-0001","bookTitle":"Things Fall Apart","overdueFee":"12","publisher":"Chinua Achebe","datePublished":"2021-03-02"}
+{"_id":{"$oid":"61148813e849b044a46152ac"},"ISBN":"123-00-0002","bookTitle":"My Sister, the Serial Killer","overdueFee":"12.09","publisher":"Oyinkan Braithwaite","datePublished":"2021-04-27"}
+{"_id":{"$oid":"6114baaedee3b613c88f9e1a"},"ISBN":"123-00-0005","bookTitle":"Everything Good Will Come","overdueFee":"11.23","publisher":"Sefi Atta","datePublished":"2021-04-26"}
+{"_id":{"$oid":"6114bacedee3b613c88f9e1b"},"ISBN":"123-00-0006","bookTitle":"Children of Blood and Bone","overdueFee":"11.45","publisher":"Tomi Adeyem","datePublished":"2021-04-26"}
+{"_id":{"$oid":"6114cababa434b28acd8b6da"},"ISBN":"123-00-0007","bookTitle":"Winning","overdueFee":"aa","publisher":"Des Moines Print Plc","datePublished":"2021-08-11"}
+{"_id":{"$oid":"611548db5467bb355458eea7"},"ISBN":"123-000-0009","bookTitle":"Danial Berhe","overdueFee":"1000000000","publisher":"Birhan Ena Selam","datePublished":"2020-10-06"}
+{"_id":{"$oid":"611549205467bb355458eea9"},"ISBN":"","bookTitle":"","overdueFee":"","publisher":"","datePublished":""}
+{"_id":{"$oid":"61154abf5467bb355458eeac"},"ISBN":"123-0001-001","bookTitle":"The God Father","overdueFee":"12.12","publisher":"Us Print Plc","datePublished":"2021-04-01"}

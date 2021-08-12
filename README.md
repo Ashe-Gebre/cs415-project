@@ -21,7 +21,7 @@
 ## Our web page looks like:
 
  #### Home page
- ![](home.PNG)
+ ![](client/images/home.PNG)
  
   #### To add a new book
  ![](add.PNG)

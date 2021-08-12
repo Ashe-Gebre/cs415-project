@@ -24,19 +24,19 @@
  ![](client/images/home.PNG)
  
   #### To add a new book
- ![](add.PNG)
+ ![](client/images/add.PNG)
  
   #### To edit a book
- ![](edit.PNG)
+ ![](client/images/edit.PNG)
  
   #### To delete a book
- ![](delete.PNG)
+ ![](client/images/delete.PNG)
  
   #### Virtual tour 
- ![](tour.PNG)
+ ![](client/images/tour.PNG)
  
    #### About us
- ![](about.PNG)
+ ![](client/images/about.PNG)
 
 
 ### We would like to thank our professor (Obinna Kalu) for giving us this opprtunity to practice what we have learnt in class.

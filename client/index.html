@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- css links  -->
+    <!-- https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-buttons.php -->
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./menu.css">
+    <script src="main.js"></script>
+
+    <style>
+        #signup_id {
+            width: 1120px;
+            padding: 20px;
+            margin: 5px 10px;
+        }
+        
+        body {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #904e92;">
+        <a class="navbar-brand" href="#" style="font-size:48px; font-family: Trattatello, fantasy;"> Fairfield </a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">City Library Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">| About Us |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="virtualTour.html">| Virtual Tour |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="index.html">| Books |</a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <a style="text-align:center; font-size: 20px; color:white;" class="nav-link" href="https://library.miu.edu/">Contact us</a>
+        </div>
+
+
+
+    </nav>
+    <!-- this is menu form -->
+    <div id="navigation_page">
+        <div class="menu">
+            <ul>
+                <li>
+                    <a class="navbar-brand" href="#"></a>
+                </li>
+                <li>
+                    <a class="navbar-brand" href="#" id="home"></a>
+                </li>
+                <li class="active">
+                    <a href="" id="home-1"></a>
+                    <div class="sub-menu2">
+                        <ul>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#" id="update_user_information_form"> Update user information</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+
+                </li>
+                </li>
+                <li>
+                    <div class="sub-menu2">
+
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:white; text-align:center" id="logout"> Log out </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- this is login form -->
+    <div class="login_style">
+        <div class="login_form" id="login_form_id">
+            <div class="wrapper fadeInDown">
+                <div id="formContent">
+                    <h1 style="color:Red;text-align: center; font-style: italic; ">Fairfield City Library @miu with Professor Kalu</h1>
+                    <div class="fadeIn first">
+                        <img src="./images/key.jpg" id="icon" alt="User Icon" />
+                    </div>
+                    <form>
+                        <div class="form_login">
+                            <p>
+                                <input type="text" id="user_name" class="fadeIn second" name="user_name" placeholder="Your Username" required>
+                            </p>
+                            <p>
+                                <input type="password" id="password" class="fadeIn third" name="login" placeholder="Your Password" required>
+                            </p>
+                            <p>
+                                <input type="button" class="btn btn-success" value="Log In" id="login">
+                            </p>
+                            <div class="eror_display" id="error_div">
+                                <p style="color: red;" id="wrong_message"></p>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="formFooter">
+                        <button type="button" class="btn btn-primary" id="create_new_account">Create new account</button>
+                    </div>
+                    <span style=" text-align:center;">Dear Librarian, if you are new, please <strong>register</strong> and login</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- this add book  form -->
+    <div class="add_book_form" id="add_book_id">
+        <div class="add_new_book">
+            <div class="container">
+                <h1 id="form-title">Add New Book</h1>
+                <form id="add_form">
+
+                    <div class="mb-3" style=>
+                        <label for="ISBN" class="form-label">ISBN<span class="required">*</span></label><input type="text" class="form-control" placeholder="ISBN" id="ISBN" required/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="bookTitle" class="form-label">Book Title<span class="required">*</span></label><input type="text" class="form-control" id="bookTitle" placeholder="Book Title" required/>
+                    </div>
+
+                    <div class="mb-3 ">
+                        <label for="overdueFee" class="form-label ">Overdue Fee<span class="required">*</span></label><input type="number" class="form-control " placeholder="Overdue Fee" id="overdueFee" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="publisher" class="form-label ">Publisher<span class="required">*</span></label><input type="text " class="form-control " placeholder="Publisher" id="publisher" required/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="publishDate" class="form-label">Date Published<span class="required">*</span></label><input type="date" class="form-control" placeholder="mm/dd/yyyy" id="datePublished" required/>
+                    </div>
+
+
+                    <button type="submit " class="btn btn-primary" id="addBtn"><span style="font-size: larger;">Add book to the collection</span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <p>
+    </p>
+
+
+    <!-- sign up form -->
+
+    <div class="signup " id="signup_id" style="margin-top: 200px; margin-left: 300px; ">
+
+        <h1> Registration Form </h1>
+
+        <br> <br><br>
+        <div class="bs-example ">
+            <div>
+                <div class="form-group row ">
+                    <label for="first_name " class="col-sm-2 col-form-label ">First Name<span class="required">*</span></label>
+                    <div class="col-sm-10 ">
+                        <input type="text " class="form-control " id="first_name" placeholder="First Name " required>
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <label for="last_name " class="col-sm-2 col-form-label ">Last Name<span class="required">*</span></label>
+                    <div class="col-sm-10 ">
+                        <input type="text " class="form-control " id="last_name" placeholder="Last Name" <span class="required">
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <label for="last_name " class="col-sm-2 col-form-label "></label>
+
+                </div>
+                <div class="form-group row ">
+                    <label for="user name " class="col-sm-2 col-form-label ">Your Username<span class="required">*</span></label>
+                    <div class="col-sm-10 ">
+                        <input type="text " class="form-control" id="user_name_id" placeholder="Your Username" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label ">Your Password<span class="required">*</span></label>
+                    <div class="col-sm-10 ">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Your Password" required>
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <div class="col-sm-10 offset-sm-2 ">
+                        <button type="submit " class="btn btn-primary" id="signup_form_id">sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- update user information -->
+
+    <div class="update_class " id="update_form_id" style="margin-top: 200px; margin-left: 300px; ">
+        <div class="bs-example ">
+            <form>
+                <div class="form-group row ">
+                    <label for="first_name" class="col-sm-2 col-form-label ">First name</label>
+                    <div class="col-sm-10 ">
+                        <input type="text " class="form-control " id="u_first_name" placeholder="first name " required>
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <label for="last_name " class="col-sm-2 col-form-label">Last name</label>
+                    <div class="col-sm-10 ">
+                        <input type="text " class="form-control " id="u_last_name" placeholder="last name" required>
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <label for="last_name " class="col-sm-2 col-form-label "></label>
+
+                </div>
+                <div class="form-group row ">
+                    <label for="user name " class="col-sm-2 col-form-label ">user name</label>
+                    <div class="col-sm-10 ">
+                        <input type="text " class="form-control " id="up_user_name_id " placeholder="Your Username" readonly required>
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <label for="inputPassword" class="col-sm-2 col-form-label ">Password</label>
+                    <div class="col-sm-10 ">
+                        <input type="password " class="form-control " id="u_input_password" placeholder="Your Password" required>
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <div class="col-sm-10 offset-sm-2 ">
+                        <button type="submit " class="btn btn-primary " id="update_user_information_btn">Update user</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- book list display page -->
+    <div class="container-a " id="book_container">
+        <div class="row " id="display-book">
+
+        </div>
+    </div>
+
+
+</body>
+<footer>
+
+    <marquee><strong> CS415</strong> with Professor <strong> Obinna Kalu </strong> at MIU ( <strong> Teams: </strong> Ashenafi G, Selam T, Daniel B) &copy 2021. </marquee>
+
+</footer>
+
+</html>
